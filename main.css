@@ -22,15 +22,15 @@ h2 {
 	border-bottom: 1px solid #bdc3c7;
 }
 
-p {
-	font-size: .75rem;
-	line-height: 1.1rem;
-	padding-left: 20px;
-}
-
 a {
 	color: #d3543c;
 	text-decoration: none;
+}
+
+.main-content-text {
+	font-size: .75rem;
+	line-height: 1.1rem;
+	padding-left: 20px;
 }
 
 .main-container {
@@ -123,30 +123,138 @@ a {
 	padding: 20px;
 }
 
+.code-box {
+	font-size: .9rem;
+	background-color: #bdc3c7;
+	padding: 20px 20px 20px 40px;
+}
 
-gap: 10px
+.table {
+	font-size: .75rem;
+	border: 1px solid #999999;
+}
 
+.table thead{
+	background-color: #bdc3c7;
+	text-align: left;
+}
 
+.table th, td {
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #999999;
+}
 
+.table button {
+	background: #3498db;
+	color: #ffffff;
+	border: 1px solid #3498db;
+	padding: 5px 20px;
+}
+.content-image {
+	display: block;
+	margin: auto;
 
+}
+.ol-content {
+	font-size: .75rem;
+	line-height: 1.1rem;
+	padding: 0px 0px 0px 20px;
+}
 
+.ol-content li {
+	padding-bottom: 5px;
+}
 
+.user-info-text {
+	font-size: .75rem;
+	color: #99999b;
+}
 
+/*COMMENT SECTION - FORM*/
 
+.comments-section {
+	margin-top: 40px;
+}
 
+.form-title {
+	color: #99999b;
+	width: 100%;
+	background-color: #99999b;
+	line-height: .1rem;
+	margin:	10px 0 20px;
+}
 
+.form-title span {
+	background: #ecf0f1;
+	padding: 0 10px;
+	margin-left: 25px;
+	font-size: .9rem;
+}
 
+.form-section {
+	padding-bottom: 20px;
+}
 
+.form-row {
+	padding: 3px 0 3px 0;
+	font-size: .75rem;
+	font-weight: bold;
+}
 
+.form-row input {
+	border: 1px solid #99999b;
+	width: 330px;
+	line-height: 25px;
+}
 
+.label-cell {
+	text-align: right;
+	width: 25%;
+	display: inline-block;
+}
 
+.form-row textarea {
+	width: 100%;
+}
 
+.submit-button {
+	width: 100%;
+	background-color: #c0392b;
+	border: none;
+	color: #ffffff;
+	font-size: .75rem;
+	padding: 10px 0;
+	margin:	20px 0;
+}
 
+/*COMMENT SECTION - COMMENTS*/
 
+.comment-container img {
+	float: left;
+	padding: 0 10px 10px 0;
+}
 
+.user-info span:first-of-type {
+	font-weight: bold;
+	font-size: .9rem;
+}
+.user-info span:last-of-type {
+	display: block;
+	color: #99999b;
+	font-style: italic;
+	font-size: .75rem;
+}
 
+.comment-content {
+	display: block;
+	clear: both;
+	font-size: .75rem;
+}
 
-
-
-
-
+.child-comment-container {
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-left: 1px solid #99999b;
+	padding-left: 10px;
+}
